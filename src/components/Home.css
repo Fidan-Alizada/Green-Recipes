@@ -1,0 +1,52 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4em 0;
+}
+
+.home-content {
+  flex: 1;
+  max-width: 600px;
+  padding: 2em;
+}
+
+.home-content h1 {
+  font-size: 3em;
+  color: #4CAF50;
+}
+
+.home-content p {
+  font-size: 1.5em;
+  line-height: 1.6;
+  margin-bottom: 2em;
+  color: black;
+}
+
+.explore-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.2em;
+  padding: 1em 2em;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #7dd781;
+  color: aliceblue;
+}
+
+
+.home-image {
+  flex: 1;
+  text-align: center;
+}
+
+.kitchen-image {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

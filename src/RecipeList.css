@@ -1,0 +1,54 @@
+.recipe-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.recipe-list li {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+
+}
+.recipe-list li:hover {
+  transform: scale(1.02);
+}
+
+.recipe-list li:hover {
+  transform: scale(1.02);
+}
+
+.recipe-list li img {
+  max-width: 170px;
+  height: auto;
+  border-radius: 4px;
+  margin-right: 1em;
+}
+
+.recipe-list li a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+  flex-grow: 1;
+  font-size: 1.5em;
+  transition: color 0.2s ease-in-out;
+  margin-left: 150px;
+}
+
+.recipe-list li a:hover {
+  text-decoration: underline;
+}
+.recipe-list-title{
+  text-align: center;
+  color: #4CAF50;
+  font-size: 2.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 1em;
+}
